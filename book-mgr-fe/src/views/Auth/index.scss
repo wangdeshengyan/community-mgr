@@ -1,0 +1,41 @@
+.bg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right :0;
+    bottom: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/01/19/48/background-2462431_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center ;
+    margin:auto;
+    z-index: -10000;
+    background-size: cover;
+}
+
+
+.auth{
+    .title-info{
+        text-align: center;
+        line-height: 100px;
+        font-size: 18px;
+   margin-top:100px; 
+     margin-bottom: 32px; 
+     display: flex;
+     justify-content: center;
+     img{
+         width: 100px;
+         height: 100px;
+     }
+    }
+    .form{
+        width: 400px;
+        margin: 0 auto;
+        .item{
+            margin-top: 16px;
+            button{
+                width:100%;
+            }
+
+        }
+    }
+}
