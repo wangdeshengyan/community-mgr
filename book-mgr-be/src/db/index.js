@@ -1,13 +1,6 @@
 require('./Schemas/User');
+require('./Schemas/InviteCode');
 const mongoose=require('mongoose');
-const UserSchema=new mongoose.Schema({
-    nickname:String,
-    password:String,
-    age:Number,
-
-    
-});
-
 const connect=()=>{
 
     return new Promise((resolve)=>{
